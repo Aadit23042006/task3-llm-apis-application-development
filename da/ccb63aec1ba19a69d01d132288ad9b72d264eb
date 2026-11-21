@@ -1,0 +1,15 @@
+linkedin_post.md
+  h_41ec79f0fc7e38 3,5,7-15,17-18,20,22-23,25-26,28,30,32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "autter_version": "2.2.1",
+  "base_commit_sha": "daccb63aec1ba19a69d01d132288ad9b72d264eb",
+  "branch": "main",
+  "prompts": {},
+  "humans": {
+    "h_41ec79f0fc7e38": {
+      "author": "Aadit Choudhary <aaditchdhr@gmail.com>"
+    }
+  }
+}
