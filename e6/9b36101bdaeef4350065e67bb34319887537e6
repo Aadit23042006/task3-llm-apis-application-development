@@ -1,0 +1,15 @@
+README.md
+  h_41ec79f0fc7e38 5,7-16,21,23,25,35-36,38-39,42,46-49,52-55,58-59,65,70,72,80,83,86-88,95-96,102,131,133,137,170,181,186-188,190
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "autter_version": "2.2.1",
+  "base_commit_sha": "e69b36101bdaeef4350065e67bb34319887537e6",
+  "branch": "main",
+  "prompts": {},
+  "humans": {
+    "h_41ec79f0fc7e38": {
+      "author": "Aadit Choudhary <aaditchdhr@gmail.com>"
+    }
+  }
+}
