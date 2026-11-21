@@ -1,0 +1,96 @@
+
+# ============================================
+# Task 3 - LLM APIs & Application Development
+# Git Ignore - Security & Clean Repository
+# ============================================
+
+# --- Environment variables & secrets ---
+.env
+.env.*
+!.env.example
+!.env.template
+
+# --- API keys & credentials ---
+secrets.json
+credentials.json
+service-account.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# --- Python virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python cache files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Testing & coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Streamlit secrets ---
+.streamlit/secrets.toml
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE & editor files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Operating system files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Logs ---
+*.log
+
+# --- Build & distribution artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- Temporary files ---
+tmp/
+temp/
+.cache/
+```
+
+### What you should do
+
+1. Open your project folder.
+2. Open or create the file named **`.gitignore`** (exact name, no `.txt` extension).
+3. Replace its entire contents with the code above.
+4. Save the file.
+5. Run the following in CMD from your project directory:
+
+```cmd
+git status
+```
+
+### Important for your company submission
+
+- ✅ `.env` and API keys excluded
+- ✅ `.streamlit/secrets.toml` excluded
+- ✅ Credentials and private key files excluded
+- ✅ Virtual environments excluded
+- ✅ Python cache excluded
+- ✅ Notebook checkpoints excluded
+- ✅ Your actual project source code, README, requirements.txt, and `.ipynb` notebook remain eligible for upload
+- ✅ `.env.example` is allowed so reviewers can understand the required environment variables without seeing your actual secrets
+
+**Note:** If any API key or secret was already committed to Git in an earlier commit, `.gitignore` alone will not remove it from Git history. It would need to be removed from tracking and the exposed key rotated.
+
+This is the version I recommend using for your Task 3 GitHub repository.
